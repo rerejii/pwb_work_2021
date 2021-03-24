@@ -1,0 +1,83 @@
+---- task image: 1 / 3 ----
+--- Loading Image ---
+--- Dataset Making ---
+--- Generate Image ---
+image generate:   0%|                                                                              | 0/7488 [00:00<?, ?it/s]2020-11-09 14:19:30.747578: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.45GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-11-09 14:19:30.776137: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.45GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-11-09 14:19:30.804597: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.45GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-11-09 14:19:30.845533: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.60GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+W1109 14:19:31.060341  7908 def_function.py:120] 11 out of the last 11 calls to <function ImageGenerator.generate_img at 0x000002630A267488> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/tutorials/customization/performance#python_or_tensor_args and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+image generate:  99%|█████████████████████████████████████████████████████████████████▋| 7450/7488 [00:17<00:00, 452.83it/s]2020-11-09 14:19:47.727123: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.38GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-11-09 14:19:47.750973: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.38GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2020-11-09 14:19:47.775230: W tensorflow/core/common_runtime/bfc_allocator.cc:246] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.38GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+image generate: 7500it [00:17, 167.06it/s]
+--- Output Image ---
+2020-11-09 14:19:58.582138: W tensorflow/core/common_runtime/bfc_allocator.cc:431] Allocator (GPU_0_bfc) ran out of memory trying to allocate 459.56MiB (rounded to 481886208)requested by op Cast
+Current allocation summary follows.
+2020-11-09 14:19:58.590411: I tensorflow/core/common_runtime/bfc_allocator.cc:970] BFCAllocator dump for GPU_0_bfc
+2020-11-09 14:19:58.593741: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (256):   Total Chunks: 168, Chunks in use: 168. 42.0KiB allocated for chunks. 42.0KiB in use in bin. 28.3KiB client-requested in use in bin.
+2020-11-09 14:19:58.598480: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (512):   Total Chunks: 228, Chunks in use: 228. 116.8KiB allocated for chunks. 116.8KiB in use in bin. 114.0KiB client-requested in use in bin.
+2020-11-09 14:19:58.603826: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (1024):  Total Chunks: 229, Chunks in use: 229. 237.8KiB allocated for chunks. 237.8KiB in use in bin. 229.0KiB client-requested in use in bin.
+2020-11-09 14:19:58.608400: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (2048):  Total Chunks: 1012, Chunks in use: 1012. 2.02MiB allocated for chunks. 2.02MiB in use in bin. 1.98MiB client-requested in use in bin.
+2020-11-09 14:19:58.613712: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (4096):  Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2020-11-09 14:19:58.618992: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (8192):  Total Chunks: 56, Chunks in use: 56. 711.0KiB allocated for chunks. 711.0KiB in use in bin. 556.0KiB client-requested in use in bin.
+2020-11-09 14:19:58.624134: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (16384):         Total Chunks: 3, Chunks in use: 3. 58.0KiB allocated for chunks. 58.0KiB in use in bin. 40.0KiB client-requested in use in bin.
+2020-11-09 14:19:58.629840: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (32768):         Total Chunks: 1, Chunks in use: 1. 32.0KiB allocated for chunks. 32.0KiB in use in bin. 32.0KiB client-requested in use in bin.
+2020-11-09 14:19:58.634075: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (65536):         Total Chunks: 1, Chunks in use: 0. 116.5KiB allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2020-11-09 14:19:58.639363: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (131072):        Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2020-11-09 14:19:58.643203: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (262144):        Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2020-11-09 14:19:58.648047: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (524288):        Total Chunks: 32, Chunks in use: 30. 18.45MiB allocated for chunks. 17.42MiB in use in bin. 15.00MiB client-requested in use in bin.
+2020-11-09 14:19:58.652442: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (1048576):       Total Chunks: 30, Chunks in use: 29. 30.98MiB allocated for chunks. 29.98MiB in use in bin. 29.00MiB client-requested in use in bin.
+2020-11-09 14:19:58.658102: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (2097152):       Total Chunks: 30, Chunks in use: 30. 63.91MiB allocated for chunks. 63.91MiB in use in bin. 60.00MiB client-requested in use in bin.
+2020-11-09 14:19:58.663647: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (4194304):       Total Chunks: 31, Chunks in use: 30. 137.91MiB allocated for chunks. 133.91MiB in use in bin. 118.38MiB client-requested in use in bin.
+2020-11-09 14:19:58.668489: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (8388608):       Total Chunks: 32, Chunks in use: 30. 277.00MiB allocated for chunks. 255.00MiB in use in bin. 240.00MiB client-requested in use in bin.
+2020-11-09 14:19:58.674516: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (16777216):      Total Chunks: 176, Chunks in use: 174. 2.79GiB allocated for chunks. 2.75GiB in use in bin. 2.72GiB client-requested in use in bin.
+2020-11-09 14:19:58.679030: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (33554432):      Total Chunks: 87, Chunks in use: 87. 2.97GiB allocated for chunks. 2.97GiB in use in bin. 2.72GiB client-requested in use in bin.
+2020-11-09 14:19:58.684997: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (67108864):      Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2020-11-09 14:19:58.690567: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (134217728):     Total Chunks: 0, Chunks in use: 0. 0B allocated for chunks. 0B in use in bin. 0B client-requested in use in bin.
+2020-11-09 14:19:58.694841: I tensorflow/core/common_runtime/bfc_allocator.cc:977] Bin (268435456):     Total Chunks: 2, Chunks in use: 1. 2.10GiB allocated for chunks. 1.79GiB in use in bin. 1.79GiB client-requested in use in bin.
+2020-11-09 14:19:58.715842: I tensorflow/core/common_runtime/bfc_allocator.cc:993] Bin for 459.56MiB was 256.00MiB, Chunk State:
+2020-11-09 14:19:58.719207: I tensorflow/core/common_runtime/bfc_allocator.cc:999]   Size: 313.82MiB | Requested Size: 304.00MiB | in_use: 0 | bin_num: 20, prev:   Size: 1.79GiB | Requested Size: 1.79GiB | in_use: 1 | bin_num: -1
+2020-11-09 14:19:58.723991: I tensorflow/core/common_runtime/bfc_allocator.cc:1006] Next region of size 9000037376
+2020-11-09 14:19:58.728250: I tensorflow/core/common_runtime/bfc_allocator.cc:1026] InUse at b10a00000 of size 1280 next 1
+
+~
+
+2020-11-09 14:20:05.265994: I tensorflow/core/common_runtime/bfc_allocator.cc:1034] 1 Chunks of size 1927544832 totalling 1.79GiB
+2020-11-09 14:20:05.269705: I tensorflow/core/common_runtime/bfc_allocator.cc:1038] Sum Total of in-use chunks: 8.00GiB
+2020-11-09 14:20:05.273291: I tensorflow/core/common_runtime/bfc_allocator.cc:1040] total_region_allocated_bytes_: 9000037376 memory_limit_: 9000037606 available bytes: 230 curr_region_allocation_bytes_: 18000075264
+2020-11-09 14:20:05.278427: I tensorflow/core/common_runtime/bfc_allocator.cc:1046] Stats:
+Limit:                      9000037606
+InUse:                      8593229312
+MaxInUse:                   8762099200
+NumAllocs:                       41309
+MaxAllocSize:               2305187840
+Reserved:                            0
+PeakReserved:                        0
+LargestFreeBlock:                    0
+
+2020-11-09 14:20:05.289445: W tensorflow/core/common_runtime/bfc_allocator.cc:439] *************************************************************************************************___
+2020-11-09 14:20:05.309241: W tensorflow/core/framework/op_kernel.cc:1767] OP_REQUIRES failed at cast_op.cc:112 : Resource exhausted: OOM when allocating tensor with shape[19608,24576,1] and type uint8 on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+Traceback (most recent call last):
+  File "../eva_ckpt.py", line 225, in <module>
+    evackpt_cls.run(img_path_set=GENERATOR_IMAGE, ans_path_set=ANSWER_IMAGE)
+  File "Z:\hayakawa\work\myTensor\20201026/func\EvaCkpt.py", line 106, in run
+    ans_path = ans_path_set[img_index]
+  File "Z:\hayakawa\work\myTensor\20201026/func\ImageGenerator.py", line 221, in run
+    out_img = tf.cast(out_img, tf.uint8)
+  File "C:\Users\hayakawa\Anaconda3\envs\tensor2-py36\lib\site-packages\tensorflow\python\util\dispatch.py", line 201, in wrapper
+    return target(*args, **kwargs)
+  File "C:\Users\hayakawa\Anaconda3\envs\tensor2-py36\lib\site-packages\tensorflow\python\ops\math_ops.py", line 923, in cast
+    x = gen_math_ops.cast(x, base_type, name=name)
+  File "C:\Users\hayakawa\Anaconda3\envs\tensor2-py36\lib\site-packages\tensorflow\python\ops\gen_math_ops.py", line 1858, in cast
+    _ops.raise_from_not_ok_status(e, name)
+  File "C:\Users\hayakawa\Anaconda3\envs\tensor2-py36\lib\site-packages\tensorflow\python\framework\ops.py", line 6843, in raise_from_not_ok_status
+    six.raise_from(core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[19608,24576,1] and type uint8 on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc [Op:Cast]
+
+2020-11-09 17:28:11.656046: E tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:725] failed to record completion event; therefore, failed to create inter-stream dependency
+2020-11-09 17:28:11.658904: I tensorflow/stream_executor/stream.cc:4938] [stream=0000015799043B10,impl=00000157992FA2A0] did not memcpy host-to-device; source: 00000159F0BB8080
+2020-11-09 17:28:11.662651: E tensorflow/stream_executor/stream.cc:332] Error recording event in stream: Error recording CUDA event: CUDA_ERROR_INVALID_HANDLE: invalid resource handle; not marking stream as bad, as the Event object may be at fault. Monitor for further errors.
+2020-11-09 17:28:11.668557: E tensorflow/stream_executor/cuda/cuda_event.cc:29] Error polling for event status: failed to query event: CUDA_ERROR_INVALID_CONTEXT: invalid device context
+2020-11-09 17:28:11.673158: F tensorflow/core/common_runtime/gpu/gpu_event_mgr.cc:273] Unexpected Event status: 1

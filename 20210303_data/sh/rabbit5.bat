@@ -1,0 +1,1 @@
+python ../main_eva_acc.py E:/work/myTensor/dataset2 Z:/hayakawa/binary 0 20 E rabbit_RTX3090 None

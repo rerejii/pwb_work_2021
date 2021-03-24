@@ -1,0 +1,1 @@
+python ../main_gan_l2e-4_bd5_fin-none_logit-true_thr-d0.py E:/work/myTensor/dataset2 Z:/hayakawa/binary 0 20 F rabbit_RTX2080TI None

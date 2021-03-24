@@ -1,0 +1,2 @@
+python main.py C:/Users/hayakawa/work/mytensor/dataset2 Z:/hayakawa/binary 0 20 A hedgehog unet_cw4-1-2_fin-none_logit-true_thr-d0 gen_img None
+python sub/auto_pattern_check.py Z:/hayakawa/binary/20210115/unet_cw4-1-2_fin-none_logit-true_thr-d0
